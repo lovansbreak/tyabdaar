@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@import "./header.css";
+@import "./compte.css";
+
+@theme{
+    --color-primary: #F05E23;
+    --color-secondary:#f59e7c;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.primary-btn{
+    @apply  p-4 rounded text-white bg-primary cursor-pointer hover:bg-black  duration-150
+}
+
+.input-text{
+    @apply p-3 bg-white rounded outline-0
+}
+
+input{
+    outline:none
+}
+
+
